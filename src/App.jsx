@@ -5,6 +5,10 @@ import Dashboard from "./pages/Dashboard";
 import Assistant from "./pages/Assistant";
 import Expenses from "./pages/Expenses";
 import Transactions from "./pages/Transactions";
+import IncomeIdeas from "./pages/IncomeIdeas";
+import LoanCalc from "./pages/LoanCalc";
+import YtLink from "./pages/ytlink";
+import ExpenseTracker from "./pages/ExpenseTracker";
 
 function App() {
   return (
@@ -14,6 +18,11 @@ function App() {
       <Route path="/assistant" element={<Assistant />} />
       <Route path="/expenses" element={<Expenses />} />
       <Route path="/transactions" element={<Transactions />} />
+      <Route path="/income-ideas" element={<IncomeIdeas />} />
+      <Route path="/loan-calculator" element={<LoanCalc />} />
+      <Route path="/financial-literacy" element={<YtLink />} />
+      <Route path="/expenses" element={<ExpenseTracker />} />
+
     </Routes>
   );
 }
